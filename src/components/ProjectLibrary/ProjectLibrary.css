@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.project {
+  display: inline-grid;
+  margin-left: -5px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-right: 39px;
+}
+
+.project img {
+  max-width: 280px;
+}
+
+.projectTitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 20px 0 20px;
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  color: #707070;
+  font-family: Nunito;
+  font-weight: bolder;
+  word-wrap: break-word;
+  max-width: 280px;
+  min-height: 55px;
+  line-height: 18px;
+}
+
+.projectSubtitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #767676;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  font-weight: bold;
+}
+.projectSubtitle span {
+  margin: 0 5px;
+}
+
+.ProjectLibrary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2%;
+  grid-row-gap: 50px;
+}
