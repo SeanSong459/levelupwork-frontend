@@ -2,13 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../Navbar/Navbar.css'
 
-
+import StarLogo from '../../Assets/Home/Star Logo 07-3.png'
 
 const TopNavBar = () => {
 return (
     <div className='navbar'>
         <div className='left'>
-            <img src={process.env.PUBLIC_URL + "/Images/Home/Star Logo 07-3.png"} width={150} alt="LevelUpLogo"/>
+            <img src={StarLogo} width={150} alt="LevelUpLogo"/>
         </div>
         <div className='nav-buttons'>
             <div className='button'>
