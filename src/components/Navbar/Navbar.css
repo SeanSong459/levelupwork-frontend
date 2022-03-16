@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Open+Sans:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ------------------------top bar--------------------------------------------- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 38px;
+    /* border: 2px solid; */
+}
+
+.button, .navbar-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 500px;
+    margin-right: 0;
+    /* border: 2px solid; */
+}
+
+.take-screen-shot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Nunito;
+    width: 200px;
+    height: 30px;
+    padding: 0px;
+    color: white;
+    border: 2px solid  #e5ab2c;
+    border-radius: 7px;
+    background: #e5ab2c;
+    box-shadow: 0px 4px 5px #00000029;
+    margin: 10px;
+}
+
+.help-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Nunito;
+    width: 200px;
+    height: 30px;
+    padding: 0px;
+    color: white;
+    border: 2px solid  #f91c85;
+    border-radius: 7px;
+    background: #f91c85;
+    box-shadow: 0px 4px 5px #00000029;
+    margin: 10px;
+
+}
+
+.more-project .mp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Nunito;
+    width: 200px;
+    height: 30px;
+    padding: 0px;
+    color: white;
+    border: 2px solid  #43c0f6;
+    border-radius: 7px;
+    background: #43c0f6;
+    text-decoration: none;
+    box-shadow: 0px 4px 5px #00000029;
+    margin: 10px;
+}
+
+.flags {
+    display: flex;
+    /* border: 2px solid; */
+    margin-right: 12px;
+    margin-bottom: 16px;
+}
+
+.nz-flag, .maori-flag{
+    margin: 3px;
+}
