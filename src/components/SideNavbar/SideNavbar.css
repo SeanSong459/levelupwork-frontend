@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Open+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.sideNavBar {
+    display: flex;
+    align-items: center;
+    width: 236px;
+    height: 1020px;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    background: #43c0f6;
+}
+
+
+.teacher-logo {
+    margin: 20px ;
+}
+
+.progress-tracker { 
+    background: #b2e4fa;
+    width: 236px;
+    padding: 20px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+
+}
+.progress-tracker h5 {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #707070;
+    
+}
+
+.IconGraduate {
+    border: 1px solid #43c0f6;
+    background: #43c0f6;
+    width: 236px;
+    padding: 20px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.IconGraduate h5 {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #fff;
+    
+}
+
+.HelpRequest {
+    border: 1px solid #43c0f6;
+    background: #43c0f6;
+    width: 236px;
+    padding: 20px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+}
+
+.HelpRequest h5 {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #fff;
+    
+    
+}
+
+.ProjectSub { 
+    border: 1px solid #43c0f6;
+    background: #43c0f6;
+    width: 236px;
+    padding: 20px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+}
+
+.ProjectSub h5 { 
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+.ProjectLibrary1 {
+    border: 1px solid #43c0f6;
+    background: #43c0f6;
+    width: 236px;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    
+
+}
+
+.ProjectLibrary1 h5 {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #fff;
+    width: 210px;
+}
+
+.img {
+    margin-right: 20px;
+}
+.img:hover {
+    color: #707070;
+    transition: 0.1s ease-in-out;
+}
+
+.ProjectLibrary1:hover{
+    cursor: pointer;
+    background: #b2e4fa;
+    transition: 0.5s ease-in-out;
+}
+
+h5:hover {
+    color: #707070;
+    transition: 0.1s ease-in-out;
+}
+
+.HelpRequest:hover{
+    cursor: pointer;
+    background: #b2e4fa;
+    transition: 0.5s ease-in-out;
+}
+
+.ProjectSub:hover{
+    cursor: pointer;
+    background: #b2e4fa;
+    transition: 0.5s ease-in-out;
+}
+
+.IconGraduate:hover{
+    cursor: pointer;
+    background: #b2e4fa;
+    transition: 0.5s ease-in-out;
+}
+
+/* ------------left arrow-------------- */
+
+.left-arrow-background {
+    /* border: 2px solid black; */
+    padding: 20px;
+    background: #b2e4fa;
+    margin-top: 68px;
+    margin-left: 172px;
+    border-radius: 10px 0px 0px 10px;
+    width: 78px;
+}
+
+.img-arrow {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* -----------navbar-footer-------- */
+
+.Icon-profile {
+    /* border: 2px solid black; */
+    padding: 12px;
+    width: 100%;
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.profile {
+    /* border: 2px solid  pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.profile p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    font-size: 9px;
+    margin: 4px;
+    color: #fff;
+}
