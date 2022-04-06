@@ -6,6 +6,8 @@ import Feature from "./pages/Features";
 import Teacher from "./pages/Teacher";
 import Projects from "./pages/Projects";
 // import Footer from "./components/Footer/Footer";
+import LoginModal from "./components/Login/LoginModal";
+import Signupmodal from "./components/Login/Signupmodal";
 
 function App() {
   return (
@@ -14,10 +16,12 @@ function App() {
         <GlobalStyle />
         {/* <Navbar /> */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/feature" element={<Feature />} />
           <Route path="/teacher" element={<Teacher />} />
           <Route path="/project" element={<Projects />} />
+          <Route path="/login" element={<LoginModal />} />
+          <Route path="/signup" element={<Signupmodal />} />
         </Routes>
         {/* <Footer /> */}
       </Router>

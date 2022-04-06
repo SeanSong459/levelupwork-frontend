@@ -7,21 +7,21 @@ import StarLogo from '../../Assets/Home/Star Logo 07-2.png'
 import NZFlag from '../../Assets/Images/NZ Flag.png'
 import MaoriFlag from '../../Assets/Images/Maori flag.png'
 import UserIcon from '../../Assets/Images/Icon awesome-user-circle.png'
-// import LoginModal from '../Pages/LoginModal'
+import LoginModal from '../Login/LoginModal'
 
 const NavbarHome = () => {
 
-    // const [showModal, setShowModal] = useState(false)
+    const [showModal, setShowModal] = useState(false)
 
-    // const openModal = () => {
-    //   setShowModal(true)
-    // }
+    const openModal = () => {
+      setShowModal(true)
+    }
 
 
   return (
     <>
         <div className='homeNavbar' >
-            {/* {showModal ? <LoginModal setShowModal={setShowModal} /> : null} */}
+            {showModal ? <LoginModal setShowModal={setShowModal} /> : null}
         <div className='left'>
             <img src={StarLogo} width={150} alt="LevelUpLogo"/>
         </div>
@@ -47,7 +47,7 @@ const NavbarHome = () => {
                 <div className='user'>
                 <img src={UserIcon} alt="userIcon" width={24} height={24}/>
                 <div>REGISTER | </div> 
-                {/* <div  onClick={() => openModal(false)}>LOGIN</div> */}
+                <div  onClick={() => openModal(false)}>LOGIN</div>
                 <div>LOGIN</div>
             </div>
             
