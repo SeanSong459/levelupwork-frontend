@@ -44,6 +44,7 @@ export const ButtonContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-right: 12px;
+  max-width: 1069px;
 `;
 
 export const BacktoTopButton = styled.button`
@@ -60,6 +61,7 @@ export const BacktoTopButton = styled.button`
   border: 0.5px solid #807e7e1a;
   color: #ffffff;
   cursor: pointer;
+  margin-right: 95px;
 `;
 
 export const BacktoTopContainer = styled.div`

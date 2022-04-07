@@ -6,16 +6,15 @@ import Home from "./pages/Home";
 import Feature from "./pages/Features";
 import Teacher from "./pages/Teacher";
 import Projects from "./pages/Projects";
-
 // import Footer from "./components/Footer/Footer";
 // import Navbar from "./components/Navbar/Navbar"
 // import SidenavBar from "./components/SideNavbar/SideNavbar";
 import ProfileStudent from "./pages/ProfileStudent";
 import ProjectBuilder from "./pages/ProjectBuilder";
 import NotFound from "./pages/NotFound"
-
 import LoginModal from "./components/Login/LoginModal";
 import Signupmodal from "./components/Login/Signupmodal";
+import "./App.css";
 
 function App() {
   return (

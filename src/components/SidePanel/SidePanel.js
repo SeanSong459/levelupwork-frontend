@@ -1,14 +1,43 @@
 import * as React from "react";
 import CheckboxControl from "./CheckboxControl";
+import { useState } from "react";
 import "./SidePanel.css";
 
 const SidePanel = () => {
+  // const [Free, setFree] = useState(0);
+
+  // useEffect(() => {
+  //   getFree();
+  // }, []);
+
+  // const getFree = ()=> {
+  //   fetch('localhost:3003/Projects', {
+  //     method: 'POST',
+  //     body: JSON.stringify({
+  //       Subscription: 'Free',
+  //     }),
+  //   })
+  //   .then((response) => {
+  //     console.log("/Projects response:", response.data);
+  //     setFree(response.data);
+  //   })
+  //     // .then((response) => response.text())
+  //     .then((result) => console.log(result))
+  //     .catch((error) => console.log('error', error));
+
+  // }
+
   return (
     <>
       <div className="panelWrapper">
         <div className="panelTitle">subcription</div>
         <hr />
-        <CheckboxControl label="Free" />
+        <CheckboxControl
+          label="Free"
+          // onChange={(event) => {
+          //   setFree(event.target.value);
+          // }}
+        />
         <CheckboxControl label="Premium" />
         <div className="panelTitle">activity type</div>
         <hr />
