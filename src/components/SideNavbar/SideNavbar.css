@@ -84,17 +84,15 @@
     color: #fff;
 }
 
-.ProjectLibrary {
+.ProjectLibrary1 {
     border: 1px solid #43c0f6;
     background: #43c0f6;
     width: 236px;
     padding: 20px;
     font-family: "Open Sans", sans-serif;
-    
-
 }
 
-.ProjectLibrary h5 {
+.ProjectLibrary1 h5 {
     display: flex;
     align-items: center;
     font-size: 12px;
@@ -110,7 +108,7 @@
     transition: 0.1s ease-in-out;
 }
 
-.ProjectLibrary:hover{
+.ProjectLibrary1:hover{
     cursor: pointer;
     background: #b2e4fa;
     transition: 0.5s ease-in-out;

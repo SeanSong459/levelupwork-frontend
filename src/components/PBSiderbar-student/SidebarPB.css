@@ -1,0 +1,233 @@
+.SidebarPB {
+  height: 88vh;
+  width: 285px;
+  background-color: #43c0f6;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.SidebarPB.Narrow {
+  height: 88vh;
+  width: 120px;
+}
+
+.PBLogoWrapper {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 20px; */
+}
+.SidebarPBlogo {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+  margin: 18px 50px;
+  /* width: 50px; */
+}
+/* span .sidebarImage {
+  width: 28px;
+} */
+.PBListWrapper {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  justify-content: space-around;
+  /* align-items: center; */
+  /* height: 200px; */
+  /* padding: 0; */
+  /* width: 100%; */
+}
+
+.PBListWrapper.Narrow {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  justify-content: space-around;
+}
+
+.SidebarPBRow {
+  width: 100%;
+  height: 45px;
+  /* border: 1px solid #43c0f6; */
+  background: #43c0f6;
+  cursor: pointer;
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.SidebarPBRow.Narrow {
+  /* width: 100%; */
+  height: 70px;
+  /* border: 1px solid #43c0f6; */
+  /* background: #43c0f6;
+  cursor: pointer;
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; */
+}
+
+.SidebarPBRow a {
+  text-decoration: none;
+  /* margin-bottom: 15px; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* margin-left: 10px; */
+
+  font: normal normal bold 14px/19px Open Sans;
+  letter-spacing: 0.28px;
+  color: #ffffff;
+}
+
+.SidebarPBImage {
+  margin-left: 20px;
+}
+
+.SidebarPBImage.Narrow {
+  margin-left: 42px;
+  width: 35px;
+}
+
+.SidebarPBTitle {
+  margin-left: 18px;
+}
+
+.SidebarPBTitle.Narrow {
+  display: none;
+}
+
+.SButtonWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* margin-right: 30px; */
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.SButtonWrapper.Left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* margin-right: 30px; */
+  margin-top: 10px;
+  cursor: pointer;
+  /* transition: "0.3s ease-in-out"; */
+}
+
+.SidebarButton {
+  border-radius: 0px 10px 10px 0px;
+  padding: 16px 20px;
+  background: #b2e4fa;
+  margin-top: 10px;
+  /* margin-top: 30px; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 30px;
+  cursor: pointer; */
+}
+
+.SidebarButtonRight {
+  border-radius: 10px 0px 0px 10px;
+  padding: 16px 20px;
+  background: #b2e4fa;
+}
+
+.SidebarIconWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 10px, 50px; */
+  width: 100%;
+  padding: 0 38px;
+  /* margin-top: 40px; */
+  position: absolute;
+  bottom: 20px;
+}
+
+.IconLink {
+  text-decoration: none;
+}
+
+.SidebarIconWrapper.Vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* column-gap: 30px; */
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+.SidebarIconTitle.Vertical {
+  display: none;
+}
+/* .SidebarIconWrapper > div:nth-of-type(1) {
+  margin-left: 20px;
+  background: red;
+} */
+.SidebarIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SidebarIcon.Vertical {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; */
+  margin-bottom: 10px;
+}
+.SidebarIcon p {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  font-size: 9px;
+  margin: 4px;
+  color: #fff;
+}
+
+.NavLink1.Dark > img{
+
+  content:url("../../../public/Images/Student Areas/objectives\ dark.png");
+
+}
+.NavLink2.Dark > img{
+
+  content:url("../../../public/Images/Student Areas/steps\ dark.png");
+
+}
+.NavLink3.Dark > img{
+
+  content:url("../../../public/Images/Student Areas/video\ dark.png");
+
+}
+.NavLink4.Dark > img{
+
+  content:url("../../../public/Images/Student Areas/new proj dark.png");
+
+}
+.NavLink5.Dark > img{
+
+  content:url("../../../public/Images/Student Areas/submit proj dark.png");
+
+}
+
+
+
+

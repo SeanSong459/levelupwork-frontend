@@ -1,5 +1,12 @@
+// import SidenavBar from "../components/SideNavbar/SideNavbar";
+
 const Home = () => {
-  return <></>;
+  return (
+    <>
+      <p>Home page</p>
+      {/* <SidenavBar /> */}
+    </>
+  );
 };
 
 export default Home;
