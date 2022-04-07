@@ -6,13 +6,16 @@ import Feature from "./pages/Features";
 import Teacher from "./pages/Teacher";
 import Projects from "./pages/Projects";
 // import Footer from "./components/Footer/Footer";
+// import Navbar from "./components/Navbar/Navbar"
+// import SidenavBar from "./components/SideNavbar/SideNavbar";
 
 function App() {
   return (
     <>
       <Router>
         <GlobalStyle />
-        {/* <Navbar /> */}
+        {/* <Navbar />
+        <SidenavBar/> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/feature" element={<Feature />} />
