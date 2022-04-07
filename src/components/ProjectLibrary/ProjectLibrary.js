@@ -1,6 +1,8 @@
 import React from "react";
 import Project from "./Project";
 import "./ProjectLibrary.css";
+import { useState, useEffect } from "react";
+import Axios from "axios";
 
 const projects = [
   {
@@ -111,11 +113,32 @@ const projects = [
 ];
 
 const ProjectLibrary = () => {
+  const [ProjectInfo, SetProjectInfo] = useState([]);
+
+  useEffect(() => {
+    getProjectInfo();
+  }, []);
+
+  const getProjectInfo = () => {
+    Axios.get("http://localhost:3003/Projects").then((response) => {
+      console.log("/Projects response:", response.data);
+      SetProjectInfo(response.data);
+    });
+  };
+
   return (
     <>
       <section className="ProjectLibrary">
-        {projects.map((project) => {
-          return <Project key={project.id} {...project}></Project>;
+        {ProjectInfo.map((project) => {
+          return (
+            <Project
+              key={project.ProjectID}
+              img={project.ProjectImg}
+              title={project.Name}
+              level={project.Course}
+              category={project.ActivityType}
+            ></Project>
+          );
         })}
       </section>
     </>

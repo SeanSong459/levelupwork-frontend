@@ -7,8 +7,8 @@ import Teacher from "./pages/Teacher";
 import Projects from "./pages/Projects";
 import ProfileStudent from "./pages/ProfileStudent";
 import ProjectBuilder from "./pages/ProjectBuilder";
-import NotFound from "./pages/NotFound"
-
+import NotFound from "./pages/NotFound";
+import "./App.css";
 
 function App() {
   return (
