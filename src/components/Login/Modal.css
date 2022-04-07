@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Open+Sans:wght@700&display=swap');
+
+*{
+    font-family: Nunito;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.modalBackground {
+    width: 100vw;
+    height: 750px;
+    padding: 10px;
+    background: transparent;
+    background-size: cover;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 999;
+}
+
+.modalContainer {
+    width: 400px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid #ecebeb;
+    border-right: 1px solid;
+    box-shadow: rgba(0,1,1,0.5) 0px 3px 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    z-index: 999;
+
+}
+
+.modalContainer1{
+    width: 400px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid #ecebeb;
+    border-left: 1px solid;
+    box-shadow: rgba(0,1,1,0.5) 0px 3px 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    z-index: 999;
+
+}
+
+
+.titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -10px;
+}
+
+.titleCloseBtn button{
+    background-color: transparent;
+    font-size: 23px;
+    cursor: pointer;
+    font-family: Nunito;
+    border: none;
+}
+
+.modalContainer .form {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1px;
+}
+.modalContainer1 .form {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1px;
+}
+
+.login-sigup {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.modalContainer .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.modalContainer1 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.modalContainer .footer button {
+    width: 170px;
+    height: 35px;
+    margin-bottom: 100px;
+    margin-top: 25px;
+    border: none;
+    background-color: #F91C85;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.modalContainer1 .footer button {
+    width: 170px;
+    height: 35px;
+    margin-bottom: 100px;
+    margin-top: 25px;
+    border: none;
+    background-color: #F91C85;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type] {
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 10px;
+}
+
+.login1 {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+.signup1 
+{
+    text-decoration: none;
+}
+
+.login2 {
+    text-decoration: none;
+}
+
+.signup2 {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 5px solid #F91C85;
+    border-radius: 3px;
+}
+
+.teacherPic, .student , .students {
+    display: flex;
+    justify-content: center;
+
+}
+
+.status{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0px;
+}

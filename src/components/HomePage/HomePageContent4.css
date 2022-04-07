@@ -1,0 +1,108 @@
+
+.competencies {
+    background: #EFEFF1;
+    color: #606060 ;
+    display: flex;
+    flex-direction: column;
+    height: 554px;
+    margin-top: 10px;
+}
+
+.comp-title {
+    margin-left: 110px;
+    margin-top: 30px;
+
+}
+/* 
+.comp-title h1{
+    font-size: 20px;
+} */
+
+.comp-text {
+    margin-left: 110px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.comp-body{
+    padding: 1px;
+    width: 80%;
+}
+
+
+.comp-body h2{
+    font-family: Nunito;
+    margin-top: 6px;
+    font-size: 20px;
+}
+
+.starLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 6px;
+    width: 10%;
+    
+}
+.starLogo img {
+    margin: 3px;
+    margin-top: -10px;
+    width: 40px;
+
+}
+
+.comp-bodyContainer{
+    display: flex;
+}
+@media screen and (max-width:400px) {
+    .comp-title{
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .comp-text{
+        margin: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .comp-title h1{
+        font-size: 20px;
+    }
+
+    .comp-text p{
+        font-size: 15px;
+    }
+    .comp-body{
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .starLogo{
+        padding: 0px;
+        align-items: center;
+        padding: 0px;
+        justify-content: flex-start;
+    }
+
+
+    .starLogo img {
+        width: 20px;
+        margin: 22px;
+    }
+    .comp-body h2{
+        font-size: 9px;
+        margin-top: 20px;
+    }
+    .comp-body p{
+        font-size: 9px;
+    }
+    .competencies{
+        height: 460px;
+    }
+}
