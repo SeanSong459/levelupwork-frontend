@@ -28,7 +28,6 @@ const MakeProject = () => {
   return (
     <div className="MPWrapper">
       <img src={Screenshot}></img>
-      {/* <img src="/Images/Student Areas/Screen Shot -1.png"></img> */}
     </div>
   );
 };

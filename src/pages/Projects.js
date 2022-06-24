@@ -9,6 +9,7 @@ import {
   BacktoTopContainer,
 } from "../components/ProjectLibrary/FilterButtonStyles";
 import Footer from "../components/Footer/Footer";
+import NavbarHome from "../components/HomePage/NavbarHome";
 
 const scrollToTop = () => {
   window.scrollTo({
@@ -20,7 +21,7 @@ const scrollToTop = () => {
 const Projects = () => {
   return (
     <>
-      {/* <Navbar /> */}
+      <NavbarHome />
       <Grid container spacing={2}>
         <Grid item lg={3.5}>
           <SidePanel />

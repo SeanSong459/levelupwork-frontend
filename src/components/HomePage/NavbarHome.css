@@ -1,137 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Open+Sans:wght@700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Open+Sans:wght@700&display=swap");
 
 .homeNavbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 12px;
-    background: #43c0f6;
-    color: #ffff;
-    font-family: Arial;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 12px;
+  background: #43c0f6;
+  color: #ffff;
+  font-family: Arial;
 }
 
-
 .button {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    font-size: 12px;
-    margin-left: 1px ;
-    margin-top: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 12px;
+  margin-left: 1px;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial;
-    width: 200px;
-    height: 30px;
-    padding: 0px;
-    color: white;
-    margin-top: px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  width: 200px;
+  height: 30px;
+  padding: 0px;
+  color: white;
+  margin-top: px;
 }
 
 .feature {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial;
-    width: 200px;
-    height: 30px;
-    padding: 0px;
-    color: white;
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  width: 200px;
+  height: 30px;
+  padding: 0px;
+  color: white;
 }
 
 .teacher {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial;
-    width: 200px;
-    height: 30px;
-    padding: 0px;
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  width: 200px;
+  height: 30px;
+  padding: 0px;
+  color: white;
 }
 
-.right{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+.right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .flags {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: 0px;
-    margin-bottom: 1px;
-    width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 0px;
+  margin-bottom: 1px;
+  width: 100%;
 }
 
-.flags img{
-    margin: 2px;
+.flags img {
+  margin: 2px;
 }
 
 .flags p {
-    margin-right: 5px;
-    font-size: 10px;
-    color: #ffff;
+  margin-right: 5px;
+  font-size: 10px;
+  color: #ffff;
 }
 
-
 .user {
-    display: flex;
-    margin-bottom: 4px;
-    width: 100%;
-    cursor: pointer;
+  display: flex;
+  margin-bottom: 4px;
+  width: 100%;
+  cursor: pointer;
 }
 
 .user img {
-    margin-right: 7px;
-    margin-top: 0px;
-    
+  margin-right: 7px;
+  margin-top: 0px;
 }
 .user div {
-    margin: 2px;
-    font-size: 16px;
+  margin: 2px;
+  font-size: 16px;
 }
 
-@media screen and (max-width:400px){
-    .homeNavbar {
-        display: flex;
-        flex-direction: column;
-    }
-    .button {
-        font-size: 10px;
-        margin-top: 5px;
-    }
-    .feature, .home, .teacher {
-        border: 1px solid black;
-        box-shadow: 0px 4px 5px #00000029;
-        border-radius: 12px;
-        font-size: 9px;
-        width: 380px;
-        margin: 2px;
+@media screen and (max-width: 400px) {
+  .homeNavbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .button {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .feature,
+  .home,
+  .teacher {
+    border: 1px solid black;
+    box-shadow: 0px 4px 5px #00000029;
+    border-radius: 12px;
+    font-size: 9px;
+    width: 380px;
+    margin: 2px;
+  }
+  .flags {
+    justify-content: center;
+  }
 
-    }
-    .flags {
-        justify-content: center;
-    }
-
-    .user div{
-        font-size: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .user img {
-        margin-left: 5px;
-    }
- }
+  .user div {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .user img {
+    margin-left: 5px;
+  }
+}

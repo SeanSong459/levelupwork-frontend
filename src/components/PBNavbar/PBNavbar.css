@@ -85,18 +85,25 @@
 }
 
 .navbuttonwrapper {
+  /* width: 700px; */
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   font-size: 12px;
   padding-top: 7px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   /* margin-left: 500px; */
   /* margin-right: 0; */
   /* border: 2px solid; */
 }
+.PBnavbuttonWrapper {
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
 
-.take-screen-shot {
+.PBnavbutton1 {
+  margin-left: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,7 +119,7 @@
   margin: 10px;
 }
 
-.help-center {
+.PBnavbutton2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,7 +135,7 @@
   margin: 10px;
 }
 
-.more-project .mp {
+.PBnavbutton3 .mp {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,7 +152,7 @@
   margin: 10px;
 }
 
-.flags {
+.PBflagcontainer {
   display: flex;
   /* border: 2px solid; */
   margin-right: 25px;
@@ -154,7 +161,6 @@
   margin-left: 25px;
 }
 
-.nz-flag,
-.maori-flag {
+.PBflag {
   margin: 3px;
 }

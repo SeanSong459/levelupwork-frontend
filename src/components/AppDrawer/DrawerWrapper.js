@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectBuilderRoutes from "../../ProjectBuilderRoutes";
-// import CopyRight from "../CopyRight/CopyRight";
 import "./DrawerWrapper.css";
 
 const DrawerWrapper = () => {
@@ -11,7 +10,6 @@ const DrawerWrapper = () => {
           <ProjectBuilderRoutes />
         </div>
       </div>
-      {/* <CopyRight /> */}
     </>
   );
 };

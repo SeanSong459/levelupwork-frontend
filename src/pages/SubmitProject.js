@@ -17,7 +17,6 @@ const SubmitProject = () => {
               After completing your project, take a screenshot of your project
               and upload it here
             </div>
-            {/* needs to add Link */}
             <button className="SPButtonWrapper">
               <img
                 src="/Images/Student Areas/Icon material-photo.png"
